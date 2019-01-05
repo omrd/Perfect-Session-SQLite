@@ -120,7 +120,7 @@ public struct SQLiteSessions {
 	}
 
 	public func resume(token: String) -> PerfectSession {
-		print("Resume with token: \(token)")
+// 		print("Resume with token: \(token)")
 		var session = PerfectSession()
 		let proxy = PerfectSessionClass()
 		do {
